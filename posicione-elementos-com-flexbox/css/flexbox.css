@@ -43,6 +43,7 @@
         display: flex;
         flex-wrap: wrap;
         
+        
     }
 
     .conteudoPrincipal-cursos-link  {
@@ -77,6 +78,7 @@
 
     .videoSobre-video {
         flex-grow: 1;
+        flex-shrink: 2;
     }
 
     
@@ -122,6 +124,13 @@
 
     .cabecalhoPrincipal-nav-link-app {
         order: -1 ;
+    }
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .videoSobre-video {
+        margin: auto;
     }
 
 }
